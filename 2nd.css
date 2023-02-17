@@ -1,0 +1,29 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Staatliches', cursive;
+}
+
+body {
+    text-align: center;
+    padding-top: 150px;
+}
+
+.container h1::after {
+    content: "ꈍ⁠ᴗ⁠ꈍ⁠";
+    color: red;
+}
+
+.button {
+    padding-top: 20px;
+}
+
+.button button {
+    width: 80px;
+    height: 40px;
+}
+
+.button button:hover {
+    color: red;
+    background-color: black;
+}

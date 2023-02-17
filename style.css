@@ -1,0 +1,42 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Staatliches', cursive;
+}
+  
+
+body {
+    text-align: center;
+}
+
+.front {
+    padding-top: 200px;
+}
+
+.front h1::after {
+    content: "ジリアン";
+    color: red;
+}
+
+.front p {
+    padding-top: 5px;
+}
+
+.button {
+    padding-top: 30px;
+}
+
+.button button {
+    padding: 10px;
+    width: 100px;
+    font-size: 15px;
+}
+
+.pointer {
+    padding-top: 10px;
+}
+
+.button button:hover {
+    color: red;
+    background-color: black;
+}
